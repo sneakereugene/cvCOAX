@@ -1,0 +1,63 @@
+body{
+  margin: 0 auto;
+  font-family: 'Roboto Mono', monospace;
+}
+.container{
+  background: #E7EFF3;
+  padding-bottom: 40px;
+}
+/*FIRST BLOCK*/
+.container1{
+display: flex;
+}
+.photo{
+  position: relative;
+  width: 140%;
+  z-index: 1;
+  margin: 40px 0px 0px 25%;
+  border-radius: 23px;
+  box-shadow: 0 0 80px rgba(0,0,0,0.5);
+}
+.infoglobal{
+  background:  #FF8F56;
+  padding: 40px;
+  position: absolute;
+  height: 400px;
+  z-index: 22;
+  top: 50%;
+  left: 51%;
+  box-shadow: 0 0 80px rgba(0,0,0,0.5);
+  border-radius: 12px;
+  font-size: 1.3em;
+  line-height: 0.8em;
+}
+/*SECOND BLOCK*/
+.expir{
+  background:  #FF8F56;
+  padding: 20px;
+  position: relative ;
+  height: 220px;
+  width: 400px;
+  top: 50%;
+  left: 21%;
+  box-shadow: 0 0 80px rgba(0,0,0,0.5);
+  border-radius: 12px;
+}
+#left{
+  left: 12%;
+}
+.flex{
+  display: flex;
+}
+.skills{
+  position: relative;
+  left: 41%;
+  width: 200px;
+  align-items: center;
+}
+footer{
+  display: flex;
+  text-align: center;
+  font-size: 2em;
+  align-items: center;
+}
